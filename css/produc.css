@@ -1,0 +1,137 @@
+body {
+    background-color: #cedffb;
+}
+
+.goods_list {
+    --padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 30px;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+
+.producto img {
+    height: 200px;
+}
+
+.producto {
+    box-shadow: 4px 4px 10px 0 rgba(1, 40, 112, 0.2);
+    background-color: #f0f0f0;
+
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.producto__images,
+.producto__container {
+    position: relative;
+}
+
+.producto__images {
+    padding-top: 100%;
+    background-color: #303030;
+}
+
+.producto__images img {
+    display: flex;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.producto__container {
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.producto__container__description {
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.producto__container__campos input,
+.producto__container__campos button {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+}
+
+.producto__container__campos button {
+    margin-top: 10px;
+}
+
+.producto__container h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.top_name {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.car {
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: rgb(11, 142, 43);
+    border: 0;
+    color: white;
+}
+
+.list_prod {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100px;
+}
+
+.prod_title {
+    background-color: rgb(32, 229, 243);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    padding-top: 5px;
+    border-bottom: #4b4545 solid 1px;
+}
+
+.prod div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+#delete,
+#more {
+    background-color: rgb(255, 0, 0) !important;
+    border: none;
+    height: fit-content;
+    width: 20px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.price {
+    margin-bottom: 5px;
+}
+
+#range {
+    margin-top: 0;
+    margin-bottom: 5px;
+}

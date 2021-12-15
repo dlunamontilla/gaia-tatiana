@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+    height: 90px;
+    width: 100vw;
+    background: rgb(133, 115, 214);
+}
+
+.navbar-brand img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.btn-outline-success img {
+    height: 32px;
+    width: 32px;
+}
+
+.contador {
+    position: absolute;
+    background: rgb(216, 80, 80);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    right: 10px;
+    top: 15px;
+    font-size: 0.7em;
+}
+
+h4, h2,small,a{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.Carousel{
+    width: 100%;
+    padding: 0 60px;
+}
+.Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+/* images */
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick{
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+.slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+}
+.slick h4 small{
+    font-size: 15px;
+    display: block;
+}
+.slick a img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick a img:hover{
+    opacity: .85;
+}
+
+/* buttons */
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0px;
+}
+
+/* nosotros*/
+
+
+.pelicula {
+    height: 3em;
+    margin: 20px;
+}
+
+.info_empresa {
+    display: flex;
+    background-color: rgb(28, 168, 223);
+    margin: 20px 30px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.img_empresa {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.descripcion {
+    background-color: rgba(248, 125, 186, 0.3);
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 3em;
+    color: rgb(28, 28, 29);
+}
+
+.contenedor_info {
+    display: flex;
+    gap: 20px;
+}
+
+.info_descripcion p,
+.info p {
+    margin: 10px 0;
+}
+
+.navbar {
+    border-bottom: 1px solid #b8bfe8;
+}
